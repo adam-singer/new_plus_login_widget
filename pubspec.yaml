@@ -1,0 +1,14 @@
+name: new_plus_login_widget
+description: A sample WebUI application
+dependencies:
+  browser: any
+  fancy_syntax: any
+  google_plus_v1_api: any
+  js: any
+  mdv: any
+  observe: any
+  polymer:
+    git:
+      ref: polymer
+      url: https://github.com/dart-lang/web-ui.git
+  shadow_dom: any

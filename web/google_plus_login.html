@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <polymer-element name="google-plus-login" extends="div">
+      <template>
+        <script src="https://plus.google.com/js/client:plusone.js"></script>
+        <span>Hello world</span>
+        <span id="signinButton">
+          <span
+            class="g-signin"
+            data-callback="signinCallback"
+            data-clientid="CLIENT_ID"
+            data-cookiepolicy="single_host_origin"
+            data-requestvisibleactions="http://schemas.google.com/AddActivity"
+            data-scope="https://www.googleapis.com/auth/plus.login"></span>
+        </span>
+      </template>
+    </polymer-element>
+  </body>
+</html>

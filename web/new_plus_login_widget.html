@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sample app</title>
+    <link rel="import" href="google_plus_login.html">
+  </head>
+  <body>
+    <google-plus-login></google-plus-login>
+    <!--
+        <script src="https://plus.google.com/js/client:plusone.js"></script>
+        <span id="signinButton">
+          <span
+            class="g-signin"
+            data-callback="signinCallback"
+            data-clientid="CLIENT_ID"
+            data-cookiepolicy="single_host_origin"
+            data-requestvisibleactions="http://schemas.google.com/AddActivity"
+            data-scope="https://www.googleapis.com/auth/plus.login"></span>
+        </span>
+    -->
+    <script type="application/dart" src="new_plus_login_widget.dart"></script>
+    <script src="packages/browser/dart.js"></script>
+  </body>
+</html>
